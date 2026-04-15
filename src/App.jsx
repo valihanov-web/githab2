@@ -1,10 +1,14 @@
 import React from 'react'
-import Hojiakbar from './components/hojiakbar/Hojiakbar'
+import Header from './components/Header/Header'
+import Main from './components/main/Main'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
     <div>
-      <Hojiakbar />
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   )
 }
