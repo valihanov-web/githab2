@@ -48,7 +48,6 @@ const App = () => {
       <Please/>
       <Offices/>
     </div>
-  )
-}
+  )}
 
 export default App
