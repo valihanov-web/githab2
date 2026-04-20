@@ -1,0 +1,24 @@
+.Work {
+  width: 100%;
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0 180px;
+  position: relative;
+  bottom: 40px;
+}
+
+.work1 h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.work1 p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #787A80;
+}

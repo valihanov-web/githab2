@@ -1,0 +1,45 @@
+.main{
+width: 100%;
+height: 90vh;
+color: white;
+display: flex;
+align-items: center;
+padding: 0 200px;
+}
+
+.main1 h1{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.main1 p{
+    font-size: 17px;
+}
+.btns{
+    display: flex;
+    gap: 30px;
+}
+
+.btns button{
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 20px;
+    color: white;
+    transition: 0.4s;
+}
+
+.btns button:hover{
+    background: white;
+    color: black;
+    transition: 0.5s;
+  transform: scale(1.07);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 30px;
+}
+

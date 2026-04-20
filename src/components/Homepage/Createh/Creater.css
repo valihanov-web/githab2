@@ -1,0 +1,29 @@
+.createh{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.createh1 h1{
+    font-size: 40px;
+    text-align: center;
+    line-height: 30px;
+}
+.createh1 p{
+    font-size: 17px;
+    margin-top: 20px;
+    color: #787A80;
+ 
+}
+
+.createh-img img{
+    width: 90%;
+    height: 500px;
+    margin-top: 30px;
+}
