@@ -1,0 +1,21 @@
+.how{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.esli{
+    width: 600px;
+    height: 150px;
+}
+.esli h1{
+    color: gray;
+}
+.esli p{
+    color: gray;
+}
+.work{
+    padding-left: 100px;
+}

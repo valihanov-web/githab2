@@ -1,0 +1,114 @@
+.hero-section {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./img65.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.overlay {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.form-wrapper {
+  background: #ffffff;
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 495px;
+  border-radius: 4px;
+  box-shadow: 0px 80px 80px -20px rgba(30, 33, 44, 0.08);
+}
+
+.form-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e212c;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  font-size: 14px;
+  color: #424551;
+  margin-bottom: 8px;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 13px 16px;
+  background: #f4f5f6;
+  border: 1px solid #d7dadd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-color: #ff5a30;
+}
+
+.checkbox-area {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.checkbox-area input {
+  margin-top: 4px;
+  accent-color: #ff5a30;
+  cursor: pointer;
+}
+
+.checkbox-area label {
+  font-size: 14px;
+  color: #424551;
+  line-height: 1.5;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.send-btn {
+  background: #ff5a30;
+  color: white;
+  border: none;
+  padding: 0 40px;
+  height: 52px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  background: #e34a24;
+  transform: scale(1.07);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
