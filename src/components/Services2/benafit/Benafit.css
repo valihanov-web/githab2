@@ -1,0 +1,49 @@
+.benafit-section{
+    width: 100%;
+    height: 60vh;
+    background-color:  rgba(30, 33, 44, 1)
+;
+
+}
+
+.btt{
+    width: 1005px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.benafit-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.benafit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.btn button{
+    width: 200px;
+    height: 50px;
+    background-color:  rgba(255, 90, 48, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    padding-left: 650px;
+    padding: -30px;
+}
