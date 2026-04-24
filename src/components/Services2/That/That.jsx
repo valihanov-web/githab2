@@ -14,7 +14,7 @@ const That = () => {
           <h4>Interior design of <br /> apartments </h4>
           <p>Adipiscing nunc arcu enim elit mattis eu placerat <br /> proin. Imperdiet elementum faucibus dignissim <br /> purus. Fusce parturient diam magna ullamcorper brf
           <br /> morbi semper massa ac facilisis.</p>
-          <h2>Interior design of private houses</h2>
+          <h4>Interior design of private houses</h4>
 
         </div>
       </div>

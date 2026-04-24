@@ -228,11 +228,13 @@ const About = () => {
         <p>We are supported by 12+ industry bodies and media partners</p>
         <div className="our-logo">
           <img src={logo1} alt="img" />
-          <img src={logo2} alt="img" />
+          <img src={logo2} alt="img" /> 
           <img src={logo3} alt="img" />
           <img src={logo4} alt="img" />
           <img src={logo5} alt="img" />
           <img src={logo12} alt="img" />
+          
+          
         </div>
         <div className="our-logo">
           <img src={logo7} alt="img" />

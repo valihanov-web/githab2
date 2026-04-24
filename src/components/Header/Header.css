@@ -7,18 +7,35 @@ header{
     font-family: sans-serif;
     background-color: #F4F5F6;
 
+
 }
 
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 30px;
+.nav {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  
+
 }
-nav ul li a{
-    text-decoration: none;
-    color: #424551;
-    font-weight: bold;
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+ color: black;
+
 }
+
+.nav a:hover {
+  color: orange;
+}
+
+.nav a.active {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
 
 .header-icon{
     display: flex;

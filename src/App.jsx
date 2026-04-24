@@ -1,53 +1,32 @@
-import React from 'react'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Createh from './components/Homepage/Createh/Createh'
-import Main1 from './components/Homepage/Main1/Main1'
-import Values from './components/Homepage/Values/Values'
-import Services1 from './components/Homepage/Services1/Services1'
-import Learn from './components/Homepage/Learn/Learn'
-import Browse from './components/Homepage/Browse/Browse'
-import Suppordet from './components/Homepage/Suppordet/Suppordet'
-import Figures1 from './components/Homepage/Figures1/Figures1'
-import Reject from './components/Homepage/Reject/Reject'
-import Discuup from './components/Homepage/Discuup/Discuup'
-import Work from './Portfolio/Work/Work'
-import Construction from './Portfolio/Construction/Construction'
-import Cubes from './Portfolio/Cubes/Cubes'
-import Pardners from './Portfolio/Pardners/Pardners'
-import Clients from './Portfolio/Clients1/Clients'
-import Quick from './Portfolio/Puilst/Quick'
-import Contacts from './components/Contacts/Contacts/Contacts'
-import Please from './components/Contacts/Please/Please'
-import Offices from './components/Contacts/Offices/Offices'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 
+import FullPage from "./components/Homepage/FullPage/FullPage";
+import FullServer from "./components/Services2/FullServer/FullServer";
+import Header from "./components/Header/Header";
+import Work from "./Portfolio/Work/Work";
+import Contacts from "./components/Contacts/Contacts/Contacts";
+import About from "./components/About/About";
+import Services from "./components/Services2/services/Design";
+import News from "./components/portfolio2/news/News";
 
 const App = () => {
   return (
     <div>
+      <Header />
+      
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Work" element={<Work />} />
+        <Route path="/News" element={<News />} />
+        <Route path="/Contacts" element={<Contacts />} />
+      </Routes>
 
-      <Header/>
-      <Footer/>
-      <Main1/>
-      <Createh/>
-      <Values/>
-      <Services1/>
-      <Learn/>
-      <Browse/>
-      <Suppordet/>
-      <Figures1/>
-      <Reject/>
-      <Discuup/>
-      <Work/>
-      <Construction/>
-      <Cubes/>
-      <Pardners/>
-      <Clients/>
-      <Quick/>
-      <Contacts/>
-      <Please/>
-      <Offices/>
+      <FullPage />
+      <FullServer />
     </div>
-  )}
+  );
+};
 
-export default App
+export default App;

@@ -329,7 +329,7 @@
 }
 
 .our-logo img {
-  width: 120px;
+  width: 80px;
   height: auto;
   object-fit: contain;
   filter: grayscale(100%);
@@ -367,12 +367,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 100px;
+  /* flex-direction: column; */
 }
 
 .row-team2{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 100px;
 }
 
 .col-team{
@@ -380,6 +383,12 @@
   padding: 0 30px;
   transition: all 0.5s ease;
 }
+
+.col-team img{
+  width: 300px;
+  height: 350px;
+}
+
 
 .col-team h2{
   color: #424551;
@@ -420,6 +429,10 @@
   height: 100vh;
  margin-top: 100px;
  text-align: center;
+}
+
+.section-map img{
+  width: 800px;
 }
 
 .section-map h1{
